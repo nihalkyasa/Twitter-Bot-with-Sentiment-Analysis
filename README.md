@@ -10,4 +10,6 @@ There are two main ways to work with the Sheets API: through Google AppScript (s
 
 ## The Sentiment Analysis
 
-This portion of the project took up the bulk of my time, as it wasn't as straightforward and laid out.
+This portion of the project took up the bulk of my time, as it wasn't as straightforward and laid out. I wanted to make a sentiment analysis model that was tailored to the vocabulary of the Twitter account I was working with. For some context, the Twitter account is an "anonymous confessions" type of page that centers around a competitive circuit of Indian dance styles. Due to the traditional nature of Indian dance, there are a lot of words that aren't seen in normally trained models, and I wanted to fine-tune a model to work with these specific tweets. I scraped 2,000+ of the account's most recent tweets and deleted entries that didn't make sense.
+
+
